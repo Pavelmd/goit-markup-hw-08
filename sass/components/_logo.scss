@@ -1,0 +1,31 @@
+.logo {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        color: $accent-color;
+    }
+   &__web {
+    color: $accent-color;
+    font-family: Oleo Script, cursive;
+    font-size: 26px;
+    line-height: 1.38;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+}
+// .logo__web {
+//     color: $accent-color;
+//     font-family: Oleo Script, cursive;
+//     font-size: 26px;
+//     line-height: 1.38;
+//     font-weight: 400;
+//     letter-spacing: 0.03em;
+// }
