@@ -25,7 +25,12 @@ body {
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 680px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
   }
 }
 
@@ -76,7 +81,6 @@ p {
 .header {
   border-bottom: 1px solid #ececec;
 }
-
 
 .container--nav {
   display: -webkit-box;
