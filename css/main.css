@@ -195,6 +195,25 @@ p {
   margin-right: 50px;
 }
 
+.menu-toggle {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.menu-toggle .icon-cross {
+  display: none;
+}
+.menu-toggle.js-open-menu .icon-cross {
+  display: block;
+}
+.menu-toggle.js-open-menu .icon-menu {
+  display: none;
+}
+
 .business {
   background-color: #2f303a;
   text-align: center;
