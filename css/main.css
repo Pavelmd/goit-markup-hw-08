@@ -120,6 +120,11 @@ p {
   display: flex;
   margin-left: auto;
 }
+@media screen and (max-width: 767px) {
+  .contacts {
+    display: none;
+  }
+}
 .contacts__item + .contacts__item {
   margin-left: 50px;
 }
@@ -180,6 +185,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   margin-left: 93px;
+}
+@media screen and (max-width: 767px) {
+  .site-nav {
+    display: none;
+  }
 }
 .site-nav__item:not(:last-child) {
   margin-right: 50px;
@@ -565,6 +575,12 @@ label {
   background-color: #f5f4fa;
   margin-bottom: 30px;
   height: 120px;
+}
+
+@media screen and (max-width: 767px) {
+  .work {
+    display: none;
+  }
 }
 
 .work__title {

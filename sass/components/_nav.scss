@@ -33,6 +33,9 @@
 }
 
 .site-nav {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
     display: flex;
     margin-left: 93px;
 
