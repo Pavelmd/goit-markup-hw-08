@@ -6,21 +6,30 @@
 .social-networks {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    //  align-items: baseline;
+    // justify-content: center;
+     align-items: center;
+    // align-items: center;
     
 }
 .footer__logo {
     color: $secondary-text-color;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    
+        font-size: 24px;
+         line-height: 1.16;
+     font-weight: 700;
+    // font-size: 26px;
+    // line-height: 1.19;
     letter-spacing: 0.03em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-block;
         margin-bottom: 20px;
-        display: inline-block;
+        display: block;
+        // display: inline-block;
             margin-bottom: 20px;
+
+            // for 468
+                text-align: center;
+            
 
             &:hover {
                     color: $accent-color;
@@ -42,9 +51,13 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+   
 }
 .address-list__item {
     margin-bottom: 9px;
+    // for 468
+    text-align: center;
 
     &:last-child {
             margin-bottom: 0px;
@@ -68,11 +81,15 @@
 }
 
 
-.social-network {
-    margin-left: 70px;
-}
+   .social-network {
+    //  margin-left: 70px;
+    margin-top: 60px;
+    }
+ 
+
 .social-network__join {
-    text-align: left;
+    text-align: center;
+    // text-align: left;
     margin-bottom: 20px;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -103,12 +120,17 @@
 .social-list__icon {
     fill: $secondary-text-color;
 }
-.form {
-    margin-left: 93px;
-}
-.form-group {
-    display: flex;
-    align-items: flex-end;
+ .form {
+    margin-top: 60px;
+    //  margin-left: 93px;
+ }
+ .form-group {
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+//  align-items: flex-end;
 }
 .form__label {
     display: flex;
@@ -125,6 +147,8 @@
     text-transform: uppercase;
     color: $secondary-text-color;
     margin-bottom: 20px;
+    // for 468
+    text-align: center;
 }
 .form__input {
     padding: 15px;
@@ -135,7 +159,8 @@
     line-height: 1.25;
     letter-spacing: 0.03em;
     background-color: #2f303a;
-    min-width: 358px;
+    min-width: 450px;
+    // min-width: 358px;
     outline: none;
 
     &::placeholder {
@@ -157,11 +182,13 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    margin-left: 12px;
+    // margin-left: 12px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 10px 28px;
     min-width: 200px;
+    // for 468
+    margin-top: 20px;
 }
 .form__icon {
     fill: currentColor;
