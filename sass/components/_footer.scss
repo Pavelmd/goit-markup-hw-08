@@ -5,7 +5,10 @@
 }
 .social-networks {
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+    //  align-items: baseline;
+    
 }
 .footer__logo {
     color: $secondary-text-color;
