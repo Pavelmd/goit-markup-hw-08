@@ -30,23 +30,24 @@
 }
 
 .priority {
+   
     &__text {
             color: $primary-text-color;
             line-height: 1.71;
             letter-spacing: 0.03em;
         }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width:768px) {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width:1200px) {
     flex-wrap: nowrap;
   }
 
-  &__item {
+   &__item {
     width: 450px;
-    //  margin-bottom: 30px;
+   
   }
 
   @media screen and (min-width: 768px) {
