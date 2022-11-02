@@ -945,9 +945,9 @@ label {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
 
@@ -1030,6 +1030,12 @@ label {
     margin-left: 165px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .social-network {
+    margin-top: 0px;
+    margin-left: 70px;
+  }
+}
 
 .social-network__join {
   text-align: center;
@@ -1038,6 +1044,11 @@ label {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+@media screen and (min-width: 1200px) {
+  .social-network__join {
+    text-align: left;
+  }
 }
 
 .social-list {
@@ -1076,6 +1087,12 @@ label {
 .form {
   margin-top: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .form {
+    margin-top: 0px;
+    margin-left: 93px;
+  }
+}
 
 .form-group {
   display: -webkit-box;
@@ -1088,6 +1105,17 @@ label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .form-group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
 }
 
 .form__label {
@@ -1112,6 +1140,11 @@ label {
   margin-bottom: 20px;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .form__text {
+    text-align: start;
+  }
+}
 
 .form__input {
   padding: 15px;
@@ -1124,6 +1157,11 @@ label {
   background-color: #2f303a;
   min-width: 450px;
   outline: none;
+}
+@media screen and (min-width: 1200px) {
+  .form__input {
+    min-width: 358px;
+  }
 }
 .form__input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
@@ -1164,6 +1202,12 @@ label {
   min-width: 200px;
   margin-top: 20px;
 }
+@media screen and (min-width: 1200px) {
+  .form__button {
+    margin-top: 0px;
+    margin-left: 12px;
+  }
+}
 
 .form__icon {
   fill: currentColor;
@@ -1175,6 +1219,9 @@ label {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
 .button-list {

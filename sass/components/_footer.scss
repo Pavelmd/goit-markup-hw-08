@@ -12,7 +12,7 @@
     @media screen and (min-width: 1200px){
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: baseline;
     }
     
 }
@@ -95,23 +95,30 @@
 
 
    .social-network {
-    //  margin-left: 70px;
+    
     margin-top: 60px;
     @media screen and (min-width: 768px){
         margin-top: 0px;
         margin-left: 165px;
     }
+         @media screen and (min-width: 1200px) {
+             margin-top: 0px;
+             margin-left: 70px;
+         }
     }
  
 
 .social-network__join {
     text-align: center;
-    // text-align: left;
+    
     margin-bottom: 20px;
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+    }
 }
 .social-list {
     display: flex;
@@ -139,15 +146,23 @@
 }
  .form {
     margin-top: 60px;
-    //  margin-left: 93px;
+    
+    @media screen and (min-width: 1200px) {
+        margin-top: 0px;
+        margin-left: 93px;
+    }
  }
  .form-group {
 
  display: flex;
  flex-direction: column;
  align-items: center;
+@media screen and (min-width: 1200px) {
+    flex-direction: row;
+    align-items: flex-end;
+}
 
-//  align-items: flex-end;
+
 }
 .form__label {
     display: flex;
@@ -166,6 +181,9 @@
     margin-bottom: 20px;
     // for 468
     text-align: center;
+    @media screen and (min-width: 1200px) {
+        text-align: start;
+    }
 }
 .form__input {
     padding: 15px;
@@ -177,8 +195,11 @@
     letter-spacing: 0.03em;
     background-color: #2f303a;
     min-width: 450px;
-    // min-width: 358px;
+    
     outline: none;
+    @media screen and (min-width: 1200px) {
+        min-width: 358px;
+    }
 
     &::placeholder {
             color: rgba(255, 255, 255, 0.6);
@@ -206,15 +227,26 @@
     min-width: 200px;
     // for 468
     margin-top: 20px;
+    @media screen and (min-width: 1200px) {
+        margin-top: 0px;
+        margin-left: 12px;
+    }
 }
 .form__icon {
     fill: currentColor;
     margin-left: 10px;
 }
-@media screen and (min-width: 768px){
-.tablet-flex {
-        display: flex;
-        
+ @media screen and (min-width: 768px){
+ .tablet-flex {
+         display: flex;
+        align-items: baseline;
 
-    }
-}
+     }
+ }
+//  @media screen and (min-width: 1200px) {
+//      .tablet-flex {
+        
+//          align-items: baseline;
+
+//      }
+//  }
