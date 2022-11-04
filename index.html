@@ -263,7 +263,24 @@
           <h2 class="comand__title">Наша команда</h2>
           <ul class="comand-list list">
             <li class="comand-list__item">
-              <img src="./img/photo1.jpg" alt="Product designer" width="270" />
+              <picture>
+                <source srcset=
+                "./img/img-adaptive/photo1-mobile-1x.jpg 1x,
+                 ./img/img-adaptive/photo1-mobile-2x.jpg 2x"
+                  media="(max-width: 767px)"/>
+                <source srcset=
+                "./img/img-adaptive/photo1-tablet-1x.jpg 1x,
+                 ./img/img-adaptive/photo1-tablet-2x.jpg 2x"
+                  media="(min-width: 768px)"/>
+                
+                <source srcset=
+                "./img/img-adaptive/photo1-desktop-1x.jpg 1x,
+                 ./img/img-adaptive/photo1-desktop-2x.jpg 2x"
+                  media="(min-width: 1200px)"/>
+                
+                <img src="./img/photo1.jpg" alt="Product designer"/>
+              </picture>
+                
               <div class="job-title">
                 <h3 class="comand-list__name">Ігор Дем'яненко</h3>
                 <p lang="en" class="comand-list__prof">Product Designer</p>
