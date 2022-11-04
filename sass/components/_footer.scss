@@ -184,6 +184,9 @@
   letter-spacing: 0.03em;
   background-color: #2f303a;
   min-width: 310px;
+  @media screen and (min-width:768px) {
+    min-width: 450px;
+  }
 
   outline: none;
   @media screen and (min-width: 1200px) {
