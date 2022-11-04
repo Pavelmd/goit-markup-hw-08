@@ -687,7 +687,7 @@ label {
   letter-spacing: 0.03em;
 }
 .priority__item {
-  width: 450px;
+  max-width: 450px;
 }
 @media screen and (min-width: 768px) {
   .priority__item {
@@ -1252,6 +1252,9 @@ label {
 }
 
 .form__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -1260,7 +1263,7 @@ label {
   line-height: 1.25;
   letter-spacing: 0.03em;
   background-color: #2f303a;
-  min-width: 450px;
+  min-width: 310px;
   outline: none;
 }
 @media screen and (min-width: 1200px) {
