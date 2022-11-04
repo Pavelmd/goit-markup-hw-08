@@ -268,18 +268,19 @@
                 "./img/img-adaptive/photo1-mobile-1x.jpg 1x,
                  ./img/img-adaptive/photo1-mobile-2x.jpg 2x"
                   media="(max-width: 767px)"/>
-                <source srcset=
+                 <source srcset=
                 "./img/img-adaptive/photo1-tablet-1x.jpg 1x,
                  ./img/img-adaptive/photo1-tablet-2x.jpg 2x"
-                  media="(min-width: 768px)"/>
-                
+                  media="(min-width: 768px)"/> 
                 <source srcset=
                 "./img/img-adaptive/photo1-desktop-1x.jpg 1x,
-                 ./img/img-adaptive/photo1-desktop-2x.jpg 2x"
-                  media="(min-width: 1200px)"/>
-                
+                ./img/img-adaptive/photo1-desktop-2x.jpg 2x" 
+                media="(min-width: 1200px)" />
                 <img src="./img/photo1.jpg" alt="Product designer"/>
               </picture>
+              
+                
+                
                 
               <div class="job-title">
                 <h3 class="comand-list__name">Ігор Дем'яненко</h3>
@@ -314,11 +315,16 @@
               </div>
             </li>
             <li class="comand-list__item">
-              <img
-                src="./img/photo3.jpg"
-                alt="Frontend developer"
-                width="270"
-              />
+              <picture>
+                <source srcset="./img/img-adaptive/photo3-mobile-1x.jpg 1x,
+                               ./img/img-adaptive/photo3-mobile-2x.jpg 2x" media="(max-width: 767px)" />
+                <source srcset="./img/img-adaptive/photo3-tablet-1x.jpg 1x,
+                               ./img/img-adaptive/photo3-tablet-2x.jpg 2x" media="(min-width: 768px)" />
+                <source srcset="./img/img-adaptive/photo3-desktop-1x.jpg 1x,
+                              ./img/img-adaptive/photo3-desktop-2x.jpg 2x" media="(min-width: 1200px)" />
+                <img src="./img/photo3.jpg" alt="Frontend developer"/>
+              </picture>
+            
               <div class="job-title">
                 <h3 class="comand-list__name">Ольга Рєпіна</h3>
                 <p lang="en" class="comand-list__prof">Frontend developer</p>
@@ -351,7 +357,16 @@
               </div>
             </li>
             <li class="comand-list__item">
-              <img src="./img/photo4.jpg" alt="Marketing" width="270" />
+              <picture>
+                <source srcset="./img/img-adaptive/photo4-mobile-1x.jpg 1x,
+                                             ./img/img-adaptive/photo4-mobile-2x.jpg 2x" media="(max-width: 767px)" />
+                <source srcset="./img/img-adaptive/photo4-tablet-1x.jpg 1x,
+                                             ./img/img-adaptive/photo4-tablet-2x.jpg 2x" media="(min-width: 768px)" />
+                <source srcset="./img/img-adaptive/photo4-desktop-1x.jpg 1x,
+                                            ./img/img-adaptive/photo4-desktop-2x.jpg 2x" media="(min-width: 1200px)" />
+                <img src="./img/photo4.jpg" alt="Marketing"/>
+              </picture>
+              
               <div class="job-title">
                 <h3 class="comand-list__name">Микола Тарасов</h3>
                 <p lang="en" class="comand-list__prof">Marketing</p>
@@ -384,7 +399,16 @@
               </div>
             </li>
             <li class="comand-list__item">
-              <img src="./img/photo2.jpg" alt="UI Designer" width="270" />
+              <picture>
+                <source srcset="./img/img-adaptive/photo2-mobile-1x.jpg 1x,
+                                                           ./img/img-adaptive/photo2-mobile-2x.jpg 2x" media="(max-width: 767px)" />
+                <source srcset="./img/img-adaptive/photo2-tablet-1x.jpg 1x,
+                                                           ./img/img-adaptive/photo2-tablet-2x.jpg 2x" media="(min-width: 768px)" />
+                <source srcset="./img/img-adaptive/photo2-desktop-1x.jpg 1x,
+                                                          ./img/img-adaptive/photo2-desktop-2x.jpg 2x" media="(min-width: 1200px)" />
+                <img src="./img/photo2.jpg" alt="UI Designer"/>
+              </picture>
+              
               <div class="job-title">
                 <h3 class="comand-list__name">Михайло Єрмаков</h3>
                 <p lang="en" class="comand-list__prof">UI Designer</p>
