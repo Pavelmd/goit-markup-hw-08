@@ -225,7 +225,6 @@ p {
   padding: 0;
   border: none;
   background-color: transparent;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
